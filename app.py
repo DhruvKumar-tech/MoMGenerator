@@ -7,7 +7,7 @@ from image2text import extract_text_image
 
 
 # Lets configure Genai model
-gemini_key = os.getenv('GOOGLE_API_KEY2')
+gemini_key = os.getenv('GOOGLE_API_KEY3')
 genai.configure(api_key = gemini_key)
 model = genai.GenerativeModel('gemini-2.5-flash-lite',
                               generation_config={'temperature':0.9})
